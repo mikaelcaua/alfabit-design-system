@@ -5,7 +5,7 @@ type ButtonProps = {
 export function Button({children, className}:ButtonProps){
     return(
         <button
-            className={`bg-[var(--primary)] bg-opacity-10 px-[32px] py-[12px] rounded-[8px] text-white ${className}`}
+            className={`bg-primary px-6 py-2 rounded-sm text-white ${className}`}
         >{children}</button>
     )
 }
